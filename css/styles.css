@@ -1,0 +1,208 @@
+/* основна палітра*/
+:root {
+    --bcg-main: #FFFFFF;
+    --bcg-secondary: #2F303A;
+    --bcg-third: #F5F4FA;
+    --title: #212121;
+    --text: #757575;
+    --accent-color: #2196F3;
+    --text-secondary: #F5F4FA;
+    --logo-main: #000000;
+}
+/* Загальні зміни */ 
+
+body {
+    background-color: var(--bcg-main);
+    color: var(--text);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+/* Хедер */
+
+.accent-logo {
+    color: var(--accent-color);
+}
+.general-logo {
+    color: var(--logo-main);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none; 
+}
+
+.nav-element {
+    color: var(--title);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-element:hover,
+.nav-element:focus {
+    color: var(--accent-color);
+}
+.nav-element.current{
+    color: var(--accent-color);
+}
+
+.contact {
+    color: var(--text);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
+}
+.list-nav {
+    list-style: none;
+}
+.list-contacts {
+    list-style: none;
+}
+/* Герой */
+.hero {
+    background-color:var(--bcg-secondary);
+}
+.hero-title {
+    color: var(--bcg-main);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.hero-button {
+    font-family: inherit;
+    background-color: var(--accent-color);
+    color: var(--bcg-main);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    border: none;
+}
+/* секція перелік переваг компанії */
+.superiority-title {
+    color: var(--title);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.superiority-text {
+    line-height: 1.7;
+}
+.list-superiority {
+    list-style: none;
+}
+/* секція:перелік послуг,які може надати компаніяї*/
+.services-title {
+    color: var(--title);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.list-services {
+    list-style: none;
+}
+
+/* секція:перелік працівників компанії */
+.team-main-title {
+    color: var(--title);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.team-secondary-title {
+    color: var(--title);
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.team-text {
+    font-size: 16px;
+    
+}
+.list-team {
+    list-style: none;
+}
+/* підвал */
+footer {
+    background-color: var(--bcg-secondary);
+}
+.footer-logo {
+    color: var(--bcg-main);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.contact-footer.location {
+    color: var(--bcg-main);
+    text-decoration: none;
+    font-style: normal;
+}
+.contact-footer-location:hover,
+.contact-footer-location:focus {
+    color: var(--accent-color);
+}
+
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+    color: var(--accent-color);
+}
+.list-footer {
+    list-style: none;
+}
+
+/* -------------Портфоліо------------ */
+/* секція:фільтр */
+.list-filter {
+    list-style: none;
+}
+
+.filter-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--title);
+    background-color: var(--bcg-third);
+    border: none;
+
+}
+.filter-button:hover {
+    background-color: var(--accent-color);
+    color: var(--bcg-main);
+}
+/* секція:проєкт */
+.list-projects {
+    list-style-type: none;
+}
+.projects-subtitle {
+    color: var(--title);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects-text {
+    font-size: 16px;
+    line-height: 1.9;
+    
+}
