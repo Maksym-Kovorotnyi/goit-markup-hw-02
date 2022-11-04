@@ -89,6 +89,7 @@ body {
     line-height: 1.9;
     letter-spacing: 0.06em;
     border: none;
+    cursor: pointer;
 }
 /* секція перелік переваг компанії */
 .superiority-title {
@@ -185,6 +186,7 @@ footer {
     color: var(--title);
     background-color: var(--bcg-third);
     border: none;
+    cursor: pointer;
 
 }
 .filter-button:hover {
