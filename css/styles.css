@@ -172,7 +172,7 @@ footer {
 }
 
 /* -------------Портфоліо------------ */
-/* секція:фільтр */
+/* секція:головна сторінка */
 .list-filter {
     list-style: none;
 }
@@ -189,7 +189,8 @@ footer {
     cursor: pointer;
 
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
     background-color: var(--accent-color);
     color: var(--bcg-main);
 }
